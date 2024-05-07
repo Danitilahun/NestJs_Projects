@@ -1,0 +1,3 @@
+[submodule "BookStoreApi"]
+	path = BookStoreApi
+	url = https://github.com/Danitilahun/BookStoreApi.git
