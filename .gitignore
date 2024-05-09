@@ -1,7 +1,7 @@
 # compiled output
 /dist
 /node_modules
-/E-learning school
+./E-learning school
 # Logs
 logs
 *.log
