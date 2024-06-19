@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    body{
+      margin: 0;
+      padding: 0;
+      min-height: 100%;
+      line-height: 1.5;
+      background-color: #FAFAFA;
+      color: #222222;
+      font-size: 16px;
+      font-family: Arial,  sans-serif;
+    }
+    a{
+      color: #000;
+      text-decoration: none;
+    }
+    h1{
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1.25;
+      margin-top: 0;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+
+    p{
+      margin-top: 0;
+      margin-bottom: 24px;
+    }
+    table td{
+      vertical-align: top;
+    }
+
+    .email-wrapper{
+
+      min-width: 600px;
+      margin: 0 auto;
+    }
+    .email-header{
+      background-color: #0070f3;
+      color: #ffffff;
+      padding: 24px;
+    }
+
+    .email-body{
+padding: 24px;
+background-color: #ffffff;
+    }
+
+    .email-footer{
+      background-color: #f6f6f6;
+      padding: 24px;
+    }
+
+    .button{
+      display: inline-block;
+      background-color: #0070f3;
+      color: #ffffff;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="email-wrapper">
+    <div class="email-header">
+      <h1>WelCome to LMS</h1>
+    </div>
+    <div class="email-body">
+      <p>Hell <%= user.name %>,</p>
+      <p>Thank you for registering with LMS To ctivate your Account Please Use the following Activation Code:</p>
+      <h2><%= activationCode %></h2>
+      <p>Please Enter this code on the Activation Page within 5 minutes</p>
+      <p>if you didn't register for a LMS account,please ignore this email</p>
+    </div>
+    <div class="email-footer">
+      <p>if you have any questions,please don't hestitate to contact us at <a href="mailto:deribewsoftware@gmail">deribewsoftware@gmail.com</a></p>
+    </div>
+  </div>
+</body>
+</html>
